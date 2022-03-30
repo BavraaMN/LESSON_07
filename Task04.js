@@ -1,3 +1,4 @@
+
 const allnewСashbox = [
   [12, 4500], 
   [7, 3210], 
@@ -14,10 +15,12 @@ const getAverageAllValue=(arg1)=>{
 
    let totalproduct=0;
    let totalcost=0;
+
    for (let i = 0; i < arg1.length; i++) {
     
     let cost = arg1[i][1] / arg1[i][0] ;
     totalcost =  totalcost + cost; 
+    
     }   
  
   return totalcost / arg1.length;
